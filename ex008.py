@@ -1,0 +1,7 @@
+num = float(input('Digite o valor em metros: '))
+print('O valor de {}m é igual a {}km - QUILOMÊTRO.'.format(num, (num/1000)))
+print('O valor de {}m é igual a {}hm - HECTÔMETRO'.format(num, (num/100)))
+print('O valor de {}m é igual a {}dam - DECAMÊTRO'.format(num, (num/10)))
+print('O valor de {}m é igual a {}dm - DECÍMETRO'.format(num, (num*10)))
+print('O valor de {}m é igual a {}cm - CENTÍMETRO'.format(num, (num*100)))
+print('O valor de {}m é igual a {}mm - MILÍMETRO'.format(num, (num*1000)))
